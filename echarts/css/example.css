@@ -1,0 +1,131 @@
+@media screen and (max-width: 1840px) {
+   #body .table-box{
+    	position:relative;
+    }
+}
+#nav{
+	    background-color: #293c55;
+}
+.table-box{
+	
+position: absolute;
+	
+top: 53px;
+	
+right: 0;
+}
+.chart-list-panel .chart {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.chart-list-panel .chart .chart-link {
+    position: relative;
+    display: block;
+}
+.chart-list-panel .chart .chart-link .chart-hover {
+    opacity: 0;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    height: 90px;
+    margin-top: -45px;
+    color: #eee;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.chart-list-panel .chart .chart-link .chart-hover .chart-title {
+    color: #eee;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.chart-list-panel .chart .chart-link .chart-hover .chart-subtitle {
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+.chart-list-panel .chart .chart-link .chart-hover-bg {
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #293c55;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+.chart-list-panel .chart .chart-link .chart-area {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+.aside{
+	
+position: fixed;
+	
+top: 49px;
+	
+bottom: 0;
+	
+left: 0;
+	
+border-top: 1px solid #0e151f;
+	
+width: 236px;
+	
+background-color: #293c55;
+	
+overflow-y: hidden;
+	
+z-index: 15;
+}
+.panel-group .panel+.panel{
+	
+margin-top: 0;
+	
+border-top: none;
+}
+.list-group-item{
+	
+color: rgba(51, 51, 51, 0.84);
+	
+padding-left: 32px;
+}
+#body{
+	
+position: relative;
+	
+height: 100%;
+	
+margin-left: 236px;
+}
+section{
+	
+margin: 75px 15px 30px 15px;
+	
+position: relative;
+}
+section h3 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
