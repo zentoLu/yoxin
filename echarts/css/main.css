@@ -419,7 +419,7 @@ html,body,#main,#page-index,#fullpage,.section{
 }
 
 .section-one #animate-logo {
-	width: 50%;
+	/* width: 50%; */
 	margin: 0 auto;
 	color: #fff;
 	font-size: 100px;
