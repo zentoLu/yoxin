@@ -1969,6 +1969,17 @@ ul {
 	margin: 10px 0
 }
 .i-form{
-	width: 420px;
 	display: inline-block;
+	float: none;
+}
+@media (max-width: 500px){
+	.sm-form{}
+	.sm-form .control-label{
+		width: 20%;
+		padding: 0;
+		}
+	.sm-input{
+		display: inline-block;
+		width: 54%;
+	}
 }
